@@ -1,0 +1,36 @@
+.card{
+    margin-left: 3%;
+    width: 100%;
+    padding: 2% 0;
+    display: grid;
+    grid-template-columns:2fr repeat(6, 1fr);
+
+    :not(.change){
+        font-family: Source Sans Pro;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color:white;
+    }
+
+    .change{
+        font-family: Source Sans Pro;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color:#06C96B;
+        display: flex;
+        gap:5px;
+    }
+
+    .change_down{
+        font-family: Source Sans Pro;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color:#F74E2C;
+        display: flex;
+        gap:5px;
+    }
+}

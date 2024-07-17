@@ -1,0 +1,92 @@
+.slider-container{
+    margin-top: 4%;
+}
+
+.slider-container .slick-dots{
+    display: flex !important; 
+    align-items: center;
+    justify-content: center;
+    gap:0.7%;
+    margin-right: 2.5%;
+}
+
+.slider-container .slick-dots li{
+    list-style: none;
+}
+
+.slider-container .slick-dots button{
+    font-size: 0;
+    width: 30px;
+    height: 5px;
+    opacity: 40%;
+    color:white;
+    transition: width 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.slider-container .slick-dots .slick-active button{
+    width: 40px;
+    color:white;
+    opacity: 100%;
+    transition: width 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.slick-slider{
+    
+}
+
+.slick-list{
+    overflow: hidden;
+    align-self: center;
+}
+
+.slick-track{
+    display: flex;
+    margin-left: 1%;
+    gap: 45px;
+}
+
+.testimonials-slide{
+    height: 326px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: #272A34;
+}
+
+.testimonials-slide-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4%;
+}
+
+.testimonials-slide-user{
+    margin-right: 50%;
+}
+
+.testimonials-name{
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color:white;
+}
+
+.testimonials-country{
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color:#BFC4CD;
+}
+
+.testimonial-feedback{
+    margin: 3%;
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color:#FFFFFF;
+}

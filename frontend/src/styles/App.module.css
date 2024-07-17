@@ -1,0 +1,163 @@
+@font-face {
+  font-family: Source Sans Pro;
+  src: url("../../public/SourceSansPro.ttf");
+}
+
+.app_header{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  background-color: #1E1F25;
+}
+
+.logolink{
+  display: flex;
+  justify-content: space-between;
+  gap:40px;
+}
+
+.create_line {
+  margin-top: 10px;
+  height: 30px;
+  border-left: 1px solid grey;
+  opacity: 0.4px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.link a{
+  color: #ADB3BF;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.reg {
+  width: 280px;
+}
+
+.reg a{
+  cursor: pointer;
+}
+
+.login, .logout{
+  width: 140px;
+  height: 56px;
+  padding: 13px 26px 13px 26px;
+  border: 0px;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 0px;
+  color: white;
+  text-decoration: none;
+}
+
+.sign{
+  width: 140px;
+  height: 56px;
+  padding: 10px 26px 13px 26px;
+  border-radius: 4px;
+  opacity: 0px;
+  background: #1B70F1;
+  color: white;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.footer{
+  background-color: #1E1F25;
+}
+
+.app_footer{
+  padding: 5% 0;
+  width: 80%;
+  margin: auto;
+  background-color: #1E1F25;
+}
+
+.footer_community{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.community{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  gap:15px;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: left;
+
+}
+
+.footer_line{
+  width: 100%;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0.2) 48.42%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  border-image-slice: 1;
+}
+
+.footer_cards_links{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0;
+}
+
+.footer_card div{
+  cursor: pointer;
+}
+
+.footer_card_title{
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  color: white;
+
+}
+
+.footer_link{
+  margin-top: 2em;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #ADB3BF;
+  text-decoration: none;
+}
+
+.footer_bott{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+.bottom_text{
+  display: flex;
+  align-items: center;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  gap: 30px;
+}
+
